@@ -32,8 +32,8 @@ module.exports = () => {
         name: "Correct me text editor",
         shortName: "JATE",
         description: "Tis a text editor!",
-        background_color: "blue",
-        theme_color: "pink",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
         start_url: "/",
         publicPath: "/",
         icons: [
