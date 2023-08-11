@@ -28,7 +28,7 @@ module.exports = () => {
       }),
       new WebpackPwaManifest({
         fingerprints: false,
-        injext: true,
+        inject: true,
         name: "just another text editor",
         shortName: "JATE",
         description: "just another text editor",
@@ -58,7 +58,7 @@ module.exports = () => {
           use: {
             loader: "babel-loader",
             options: {
-              presents: ["@babel/present-env"],
+              presets: ["@babel/preset-env"],
               plugins: [
                 "@babel/plugin-proposal-object-rest-spread",
                 "@babel/transform-runtime",
